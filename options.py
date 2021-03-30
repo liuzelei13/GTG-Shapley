@@ -6,8 +6,8 @@ import argparse
 
 
 def modify_by_SV(args):
-    gradient_list=['OR','MR','TMR','MR_TMC','OR_TMC','Fed_SV','GTG','MR_TMCR','OR_TMCR']
-    aggregate_list=['OR','OR_TMC','OR_TMCR']
+    gradient_list=['OR','MR','TMR','GTG_Ti','GTG_OTi','Fed_SV','GTG','GTG_Tib']
+    aggregate_list=['OR','GTG_OTi']
     real_train_list=['ExactSV','TMC','GroupTest']
     if args.SV_alg in gradient_list:
         args.gradient=True
