@@ -1,3 +1,3 @@
 # GTG-Shapley for Federated Learning
 
-- Please contact this email(zelei.liu@ntu.edu.sg) for details.
+- For details:  https://github.com/cyyever/distributed_learning_simulator
